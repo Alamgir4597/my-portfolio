@@ -14,8 +14,9 @@ const Mailer = () => {
 
     }
     return (
-        <div className='container mx-auto  '>
-            <div class="hero min-h-screen bg-current">
+        <div className='container mx-auto bg-current  '>
+           
+            <div class="hero min-h-screen ">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <div class="text-center lg:text-left">
                         <h1 class="text-3xl text-white font-bold">Contact now!</h1>
@@ -28,23 +29,23 @@ const Mailer = () => {
                                     <label class="label">
                                         <span class="label-text">Name</span>
                                     </label>
-                                    <input type="text" name='name' placeholder="name" class="input input-bordered" />
+                                    <input type="text" name='name' placeholder="name" class="input input-bordered" required />
                                 </div>
                                 <div class="form-control">
                                     <label class="label">
                                         <span class="label-text">Email</span>
                                     </label>
-                                    <input type="text" placeholder="email" class="input input-bordered" />
+                                    <input type="text" placeholder="email" class="input input-bordered" required />
                                 </div>
                                 <div class="form-control">
                                     <label class="label">
                                         <span class="label-text">Message</span>
                                     </label>
-                                    <textarea type="textarea" placeholder="message" rows="4" class="input input-bordered" />
+                                    <textarea type="textarea" placeholder="message" rows="4" class="input input-bordered" required />
 
                                 </div>
                                 <div class="form-control mt-6">
-                                    <button class="btn btn-primary" type='submit' value="send">Login</button>
+                                    <button class="btn btn-primary" type='submit' value="send">Send</button>
                                 </div>
                             </form>
                         </div>

@@ -1,23 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <div className='container mx-auto sticky top-0'>
             <div class="navbar bg-base-100">
                 <div class="flex-1">
-                    <a class="btn btn-ghost normal-case text-xl">Alamgir</a>
+                    <Link to='/'>  <a class="btn btn-ghost normal-case text-xl text-indigo-700">Alamgir Hossain</a></Link>
                 </div>
-                <div class="flex-none">
-                    <ul class="menu menu-horizontal p-0">
-                        <li><a>Item 1</a></li>
-                        <li tabindex="0">
-                            <a>
-                                Parent
-                                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
-                            </a>
-
-                        </li>
-                        <li><a>Item 3</a></li>
+                <div class="flex-none ">
+                    <ul class="menu menu-horizontal p-0 ">
+                        <Link to='/home'><li ><a className='text-indigo-700 font-bold' >Home</a></li></Link>
+                        <Link to='/contact'><li ><a className='text-indigo-700 font-bold' >Contact</a></li></Link>
+                        <Link to='/blogs'><li ><a className='text-indigo-700 font-bold' >Blogs</a></li></Link>
+                        <Link to='/about'><li ><a className='text-indigo-700 font-bold' >About</a></li></Link>
+                      
                     </ul>
                 </div>
             </div>

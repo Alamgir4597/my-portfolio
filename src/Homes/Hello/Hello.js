@@ -16,12 +16,12 @@ const Hello = () => {
                             <h3 class="py-3 text-white ">I AM   <span className='text-2xl'> ALAMGIR HOSSAIN</span></h3>  
                             <h5 class="py-3 text-white">Junior MERN Stack Developer</h5>
                             
-                            <div className='flex justify-evenly'>
-                                <button class="btn btn-sm btn-primary"> <a href="https://drive.google.com/file/d/1DTYDVPk69fdi7rqZSqPUt4getMZIN1Nm/view?usp=sharing" target="_blank" rel="noreferrer">
-                                    Hire Me
+                           
+                            <button class="btn btn-sm btn-primary"> <a href="https://drive.google.com/file/d/1RtdTpFsTT6pUzYNpOPUzAcTHLd0po7By/view?usp=sharing" target="_blank" rel="noreferrer">
+                                    GET RESUME
                                 </a></button>
-                                <button class="btn btn-sm  btn-primary">Get Resume</button>
-                               </div>
+                               
+                               
                             
                              </div>
                     </div>
