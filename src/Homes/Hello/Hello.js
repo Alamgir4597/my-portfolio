@@ -17,7 +17,7 @@ const Hello = () => {
                             <h5 class="py-3 text-white">MERN Stack Developer</h5>
                             
                            
-                            <button class="btn btn-sm btn-primary"> <a href="https://drive.google.com/file/d/1RtdTpFsTT6pUzYNpOPUzAcTHLd0po7By/view?usp=sharing" target="_blank" rel="noreferrer">
+                            <button class="btn btn-sm btn-primary"> <a href="https://drive.google.com/file/d/1XAd4sNq_jbZiiKm7Tl-nthABCkcFmk8Y/view?usp=share_link" target="_blank" rel="noreferrer">
                                     GET RESUME
                                 </a></button>
                                
