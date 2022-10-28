@@ -14,7 +14,7 @@ const Hello = () => {
                                
                             <h1 class="text-5xl font-bold text-white ">HELL0  </h1>
                             <h3 class="py-3 text-white ">I AM   <span className='text-2xl'> ALAMGIR HOSSAIN</span></h3>  
-                            <h5 class="py-3 text-white">Junior MERN Stack Developer</h5>
+                            <h5 class="py-3 text-white">MERN Stack Developer</h5>
                             
                            
                             <button class="btn btn-sm btn-primary"> <a href="https://drive.google.com/file/d/1RtdTpFsTT6pUzYNpOPUzAcTHLd0po7By/view?usp=sharing" target="_blank" rel="noreferrer">
